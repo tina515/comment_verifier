@@ -1,0 +1,3 @@
+# comment_verifier
+
+There are 2 python3 files in this project. learn.py is a program which calculates probabilities needed to implement Naive Bayes and saves this values in csv files so there is no need to run this file every time. comment_verifier.py gets a csv file name(the file must be the same format as comments.csv,with or without verification_status), and classifies the comments in the given file and writes them in output.csv. If the given csv file has the coloumn verification_status, correctness can also be computed. The program might take some time if the given input is large. Accuracy of the classifier is up to 80 percent.
